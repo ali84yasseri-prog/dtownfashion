@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D-Town 3D Fashion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Future of Fashion</h1>
+  <p>Powered by AI & 3D</p>
+</div>
+
+<!-- AI INPUT -->
+<div class="ai-box glass">
+  <input id="prompt" placeholder="Describe your outfit..." />
+  <button id="generate">Generate</button>
+</div>
+
+<!-- SCROLL SECTIONS -->
+<div class="sections">
+  <section>Premium Drop</section>
+  <section>AI Generated Style</section>
+  <section>Built by Aditya Singh</section>
+</div>
+
+<!-- CANVAS -->
+<canvas id="webgl"></canvas>
+
+<!-- AUDIO -->
+<audio id="ambient" src="assets/ambient.mp3" loop></audio>
+
+<!-- SCRIPTS -->
+<script type="module" src="app.js"></script>
+</body>
+</html>
